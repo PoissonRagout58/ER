@@ -1,0 +1,74 @@
+/* Importation d'une police moderne */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f2f5; /* Gris très clair */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    background: white;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 300px;
+}
+
+h1 {
+    color: #333;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+#count {
+    font-size: 4rem;
+    font-weight: 600;
+    margin: 1rem 0;
+    color: #2d3436;
+    transition: color 0.3s ease; /* Transition douce pour le changement de couleur */
+}
+
+.button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s, background 0.3s;
+}
+
+.btn-add {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-add:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px); /* Petit effet de saut au survol */
+}
+
+.btn-reset {
+    background-color: #ecf0f1;
+    color: #7f8c8d;
+}
+
+.btn-reset:hover {
+    background-color: #dfe6e9;
+}
+
+button:active {
+    transform: scale(0.95); /* Effet d'enfoncement quand on clique */
+}
